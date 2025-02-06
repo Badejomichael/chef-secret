@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHEF'S SECRECT</title>
+
+  <!-- bootstrap link -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container px-4 px-lg-5">
+        <a href="./index.html" class="navbar-brand o">Chef's Secret.</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blogs" href="#blogs" onclick="active();">Blogs</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="btn btn1 nav-button">
+        latest Contest
+        </a>
+      </div>  
+    </nav>
+  </header>
+
+  <!-- main-section  -->
+  <section class="main-section">
+    <div class="container col-xxl-8 main-section-img">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/chef-image.png" class="d-block mx-lg-auto img-fluid chef-image" alt="chef image">
+        </div>
+        <div class="col-lg-6 main-section-title">
+          <h1 class="mb-3">Cook Like a Pro with Our <span class="o">Easy</span> and <span class="o">Tasty</span> Recipies</h1>
+          <p class="lead">From quick and easy meals to gourment delights, we have something for every taste and occasion</p>
+          <a href="#" class="btn btn1">
+            Explore all Recipes
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section1 -->
+  <section class="section1"  id="section1">
+    <div class="title container">
+      <div class="row">
+        <h2>Popular Recipes You Can't Miss</h2>
+        <p>From comfort food classics to exotic flavor, our featured recipes are sure to impress.</p>
+      </div>
+    </div>
+
+    <div class="container recipe-c">
+      <div class="row p js-recipe-row">
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- section3 -->
+  <section class="section3">
+    <div class="container col-xxl-8">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/plate-image.png" class="d-block mx-lg-auto img-fluid plate-image" alt="" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 main-section-title">
+          <h2 class="mb-3">Join Our Latest Contest</h2>
+          <p class="lead">Discover new flavours and cooking techniques with our diverse selection of cuisine types.</p>
+          <a href="#" class="btn btn1">
+            Explore Contest
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section4-->
+  <section class="section4">
+    <div class="title container">
+      <div class="row">
+        <h2>Recipe Collection</h2>
+        <p>From quick weeknight dinners to elaborate weekend projects, we have recipes to fit every lifestyle and taste.</p>
+      </div>
+    </div>
+
+    <div class="slider-container">
+      <div class="slider js-recipe-slider">
+          <!-- <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image1.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Creamy Tomato Basil Soup</h5>
+                <p class="card-text">
+                  This comforting soup is made with fresh tomatoes, aromatic basil, and a touch of cream.
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image4.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Spicy Shrimp Tacos</h5>
+                <p class="card-text">
+                These tacos are loaded with juicy shrimp that have been mixed in a spicy blend of chill powder. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image7.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Chicken Parmesan</h5>
+                <p class="card-text">
+                This classic italian dish features tender chicken breasts coated in crsipy breadcrumbs. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image9.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Chip Cookies</h5>
+                <p class="card-text">
+                These cookies are the perfect balance of chewy and crispy, with goocy pockets of melted. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image7.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Chicken Parmesan</h5>
+                <p class="card-text">
+                This classic italian dish features tender chicken breasts coated in crsipy breadcrumbs. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image4.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Spicy Shrimp Tacos</h5>
+                <p class="card-text">
+                These tacos are loaded with juicy shrimp that have been mixed in a spicy blend of chill powder. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image9.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Chip Cookies</h5>
+                <p class="card-text">
+                These cookies are the perfect balance of chewy and crispy, with goocy pockets of melted. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="card" style="width: 16rem">
+              <img src="./assets/image7.jpg" class="card-img-top" alt="..." height="150px"/>
+              <div class="card-body">
+                <h5 class="card-title">Chicken Parmesan</h5>
+                <p class="card-text">
+                This classic italian dish features tender chicken breasts coated in crsipy breadcrumbs. 
+                </p>
+                <p>
+                  <ul class="ul">
+                    <li>30 Min</li>
+                    <li>Easy</li>
+                    <li>4.5 Ratings</li>
+                  </ul> 
+                  </p>
+              </div>
+            </div>
+          </div> -->
+      </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <a href="./recipes.html" class="btn btn1 btn3">See All Recipes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- section5 -->
+  <section class="section5" id="blogs">
+    <div class="container title">
+      <div class="row">
+        <h2>Latest Blog</h2>
+        <p>From quick weeknight dinners to elaborate weekend projects.</p>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8">
+      <!-- flex-lg-row align-items-center g-5 -->
+      <div class="row w">  
+        <div class="col-10 col-sm-8 col-lg-6 blog1">
+          <img src="./assets/image8.jpg" class="d-block mx-lg-auto img-fluid blog1-img" alt="">
+          <div class="blog1-text">
+            <h6 class="h6">5 Easy Weeknight Meals to Make in 30 Minutes</h6>
+          <p class="hp">
+            This blog post features five quick and easy recipes that are perfect for busy weeknights. From stir-fry to tacos to pasta,
+            these meals are simple to make and full of flavour.
+          </p>
+          <p>13 October 2023</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 main-section-title">
+          <div class="sub-container1">
+            <img src="./assets/image7.jpg" alt="" class="sc">
+            <div class="write-up">
+              <h6>The Ultimte Guide to Baking Perfect Cookies Every Time</h6>
+              <p>
+                This blog post features five quick and easy recipes that are perfect for busy weeknights. From stir-fry to tacos to pasta,
+                these meals are simple to make and full of flavour.
+              </p>
+              <p>13 October 2023</p>
+            </div>
+          </div>
+          
+
+          <div class="sub-container1">
+            <img src="./assets/image7.jpg" alt="" width="150px">
+            <div class="write-up">
+              <h6>5 Easy Weeknight Meals to Make in 30 Minutes</h6>
+              <p>
+                This blog post features five quick and easy recipes that are perfect for busy weeknights. From stir-fry to tacos to pasta,
+                these meals are simple to make and full of flavour.
+              </p>
+              <p>13 October 2023</p>
+            </div>
+          </div>
+
+          <div class="sub-container1">
+            <img src="./assets/image7.jpg" alt="" width="150px">
+            <div class="write-up">
+              <h6>5 Easy Weeknight Meals to Make in 30 Minutes</h6>
+              <p>
+                This blog post features five quick and easy recipes that are perfect for busy weeknights. From stir-fry to tacos to pasta,
+                these meals are simple to make and full of flavour.
+              </p>
+              <p>13 October 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <a href="#" class="btn btn1 btn4">See More</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <footer>
+          <div class="row">
+            <div class="col-12 footer-head">
+              <h4>Chef's Secret.</h4>
+              <p>From quick and easy to gourment delights, we have something for every taste and occasion.</p>
+            </div>
+
+            <div class="col-12">
+              <ul class="nav flex-row footer-links">
+                <li class="nav-item mb-2"><a href="./about.html" class="nav-link p-0 a">About Us</a></li>
+                <li class="nav-item mb-2"><a href="./recipes.html" class="nav-link p-0 a">Recipes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 a">Contest</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 a">Blogs</a></li>
+              </ul>
+            </div>
+
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 ff">
+            <p>Copyright © 2024</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3 social-media"><a class="link-body-emphasis" href="#"><img src="./assets/facebook-icon.svg" class="bi footer-icons" width="25" height="25"></img></a></li>
+              <li class="ms-3 social-media"><a class="link-body-emphasis" href="#"><img src="./assets/instagram-icon.svg" class="bi footer-icons" width="25" height="25"></img></a></li>
+              <li class="ms-3 social-media"><a class="link-body-emphasis" href="#"><img src="./assets/twitter-icon.svg" class="bi footer-icons" width="25" height="25"></img></a></li>
+              <li class="ms-3 social-media"><a class="link-body-emphasis" href="#"><img src="./assets/youtube-icon.svg" class="bi footer-icons" width="25" height="25"></img></a></li>
+            </ul>
+          </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+  ></script>
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
